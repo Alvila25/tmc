@@ -1,0 +1,14 @@
+export default function Hero() {
+  return (
+    <div className="relative w-full h-screen flex items-center justify-center bg-cover bg-center text-white text-center p-6" style={{ backgroundImage: 'url(/path-to-your-image.jpg)' }}>
+      <div className="max-w-2xl bg-black bg-opacity-50 p-8 rounded-lg">
+        <h1 className="text-5xl font-bold mb-4">Découvrez la Culture Tchadienne</h1>
+        <p className="text-lg mb-6">Explorez l'héritage, les traditions et l'art du Tchad.</p>
+        <div className="flex justify-center space-x-4">
+          <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-yellow-600 transition">En savoir plus</button>
+          <button className="border border-yellow-500 px-6 py-3 rounded-lg hover:bg-yellow-500 hover:text-white transition">Rejoignez-nous</button>
+        </div>
+      </div>
+    </div>
+  );
+}
