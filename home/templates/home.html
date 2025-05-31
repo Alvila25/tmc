@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chadian Cultural Heritage</title>
+    <title data-lang="page_title">Chad My Culture</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
@@ -26,6 +26,8 @@
         .section:nth-child(odd) { background: #f9f9f9; }
         .section:nth-child(even) { background: #e6e6e6; }
         @media (max-width: 768px) { .nav-links { flex-direction: column; } .hero h1 { font-size: 1.8rem; } }
+        #language-select {
+      margin-left: auto; }
     </style>
 </head>
 <body>
@@ -67,39 +69,41 @@
     </div>
 </header>
 
-    <!--About Chad and Our Mission-->
+    <!--About Chad-->
     <section id="about" class="section">
-       <h2 data-lang="section_about"></h2>About Chad & Our Mission</h2>
+       <h2 data-lang="section_about"></h2>About Chad</h2>
         <p data-lang="about_text">
-           Chad is a nation of diverse cultures, rich traditions, and deep-rooted heritage. Chad is located at the crossroads of North and Central Africa. 
-         Chad is home to over 200 ethnic groups, each contributing to its vibrant cultural landscape.</p>
-        <p>
-            Our mission is to preserve, promote, and shape Chad’s cultural identity globally. We are committed to showcasing its unique art, music, literature, traditions, and history to the world. By educating and engaging communities, we aim to foster a deeper appreciation of Chad’s heritage while embracing modern innovations to keep its traditions alive for future generations.
+            Chad is a nation of diverse cultures, rich traditions, and deep-rooted heritage. Chad, known as the "Heart of Africa," is a landlocked country in Central Africa with a rich cultural heritage and diverse landscapes. 
+            Covering 1.28 million km², it is the fifth-largest country on the continent, sharing borders with Libya, Sudan, the Central African Republic, Cameroon, Nigeria, and Niger.
+            Chad’s landscape is remarkably varied, ranging from the vast Sahara Desert in the north to the fertile Sudanian savannas in the south. 
+            The country is home to Lake Chad, once one of Africa’s largest lakes, and breathtaking natural wonders like the Ennedi Plateau, known for its unique rock formations and ancient cave paintings.
         </p>
     </section>
 
     <!--Our Vision and Cultural Mission-->
     <section id="vision" class="section">
         <h2 data-lang="section_vision">Our Vision & Cultural Mission</h2>
-        <p data-lang="vision_text">
-         Our vision is to establish Chad as a globally recognized cultural hub, where traditions are preserved, artists are empowered, and the world is educated about our rich heritage. We strive to connect the past, present, and future of Chadian culture through innovation and collaboration.</p>
-        <p>Our mission is driven by the following key commitments:</p>
+        <p data-lang="vision_text">Our vision is to establish Chad as a globally recognized cultural hub, where traditions are preserved, artists are empowered, and the world is educated about our rich heritage. 
+            We strive to connect the past, present, and future of Chadian culture through innovation and collaboration.</p>
+        <p  data-lang="vision_text">Our mission is driven by the following key commitments:</p>
         <ul>
-            <li><strong>Preserving Traditions:</strong> Documenting, archiving, and celebrating Chad’s diverse cultural practices.</li>
-            <li><strong>Empowering Artists:</strong> Providing platforms and resources for Chadian creators in art, music, and literature.</li>
-            <li><strong>Global Education:</strong> Showcasing Chad’s cultural identity to international audiences through digital content and storytelling.</li>
-            <li><strong>Innovation & Modernization:</strong> Embracing technology, digital media, and contemporary art to keep Chadian heritage alive in the modern world.</li>
+            <li><strong data-lang="vision_text">Preserving Traditions:</strong> Documenting, archiving, and celebrating Chad’s diverse cultural practices.</li>
+            <li><strong data-lang="vision_text"></strong>Empowering Artists:</strong> Providing platforms and resources for Chadian creators in art, music, and literature.</li>
+            <li><strong data-lang="vision_text"></strong>Global Education:</strong> Showcasing Chad’s cultural identity to international audiences through digital content and storytelling.</li>
+            <li><strong data-lang="vision_text">Innovation & Modernization:</strong> Embracing technology, digital media, and contemporary art to keep Chadian heritage alive in the modern world.</li>
         </ul>
     </section>
 
     <!-- History & Heritage Section -->
     <section id="history" class="section">
         <h2 data-lang="section_history">Heritage & History of Chad</h2>
+        <div class="section box"></div>
         <h3 data-lang="history_roots">Chad’s Historical Roots</h3>
         <p data-lang="history_text">
-            Chad's history is deeply rooted in the ancient civilizations that flourished in the region. The Kanem-Bornu Empire, one of Africa’s most powerful kingdoms, thrived for centuries, influencing trade, culture, and governance. Chad is home to over 200 ethnic groups, each with its own unique traditions and customs, contributing to the country's diverse cultural landscape.
+            Chad's history is deeply rooted in the ancient civilizations that flourished in the region. Chad’s cultural heritage is deeply rooted in its history and ethnic diversity. The country boasts ancient archaeological sites, including the Sao civilization ruins and prehistoric rock engravings of the Ennedi Plateau. 
+            Traditional mudbrick architecture, such as the palaces of Abéché and the earthen mosques of the Sahel, reflect the country’s architectural legacy.
+            The Kanem-Bornu Empire, one of Africa’s most powerful kingdoms, thrived for centuries, influencing trade, culture, and governance. Chad is home to over 200 ethnic groups, each with its own unique traditions and customs, contributing to the country's diverse cultural landscape.
         </p>
-
          <h3 data-lang="cultural_milestones">Cultural Milestones</h3>
         <p data-lang="milestones_text">
             Throughout history, Chad has experienced significant cultural transformations. From the rise of indigenous kingdoms and Islamic influences to the impact of colonization and independence in 1960, these milestones have shaped Chad’s identity. Today, Chad continues to celebrate its heritage through festivals, traditional ceremonies, and cultural preservation efforts.
@@ -199,7 +203,7 @@
         <p data-lang="tourism_text1">
             Chad is home to remarkable natural and historical landmarks that reflect its cultural and environmental significance. One of the most famous is <span class="highlight">Zakouma National Park</span>, a protected wildlife sanctuary known for its elephants, lions, and diverse ecosystems.
         </p>
-        <p data-lang="tourism_text1"
+        <p data-lang="tourism_text1">
             The <span class="highlight">Ennedi Plateau</span>, a UNESCO World Heritage Site, is a breathtaking rock formation featuring ancient cave paintings that date back thousands of years. Another key landmark is <span class="highlight">Lake Chad</span>, once one of the largest lakes in Africa, playing a crucial role in the region’s history and economy.
         </p>
 
@@ -307,7 +311,7 @@
         </div>
 
         <div class="proverb">
-            <h3 data-lang="proverb_general1" Proverbs by Region</h3>
+            <h3 data-lang="proverb_general1"> Proverbs by Region</h3>
             <p data-lang="proverb_text2"><span class="highlight">Kanembu Proverb:</span> <br> <strong>"A tree does not grow taller than the one that gave it shade."</strong></p>
             <p data-lang="proverb_meaning2"><em>Meaning:</em> Respect and honor those who have supported and guided you.</p>
 
@@ -500,7 +504,7 @@
         <div class="tour-list">
             <!-- Virtual Tour 1 -->
             <div class="tour-card">
-                <h3 data-lang="tour_festival" 🌍 360° Tour: Gerewol Festival</h3>
+                <h3 data-lang="tour_festival"> 🌍 360° Tour: Gerewol Festival</h3>
                 <p data-lang="tour_text1">Step into the world of the Gerewol Festival, a breathtaking cultural event featuring dance, music, and tradition.</p>
                 <iframe src="https://www.youtube.com/embed/YOUR_360_VIDEO_ID" title="Cultural video"></iframe>
                 <a href="https://www.your360tour.com" class="experience-btn">Start 360° Tour</a>
@@ -679,35 +683,127 @@
                 <a href="support-artists.html" class="action-btn">Support an Artist</a>
             </div>
         </div>
-
     </section>
 
-
-    <!-- 📞 Contact Section -->
     <section id="contact" class="section">
         <h2 data-lang="section_contact">📞Contact & Collaborate</h2>
-        <p data-lang="contact_text"> Connect with us to contribute, collaborate, or learn more about Chadian culture.</p>
-
+        <p data-lang="contact_text">Connect with us to contribute, collaborate, or learn more about Chadian culture.</p>
         <form class="contact-form" id="contactForm">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
+            <div>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" autocomplete="name" required>
+            </div>
+            <div>
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="email" autocomplete="email" required>
+            </div>
+            <div>
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" rows="5" autocomplete="off" required></textarea>
+            </div>
             <button type="submit">Send Message</button>
         </form>
-
-        <div class="contact-info">
-            <p data-lang="contact_info"> 📍 Address: N'Djamena, Chad</p>
-            <p data-lang="contact_email"> 📧 Email: <a href="mailto:info@chadculture.com">info@chadculture.com</a></p>
-            <p data-lang="contact_phone"> 📞 Phone: +235 123 456 789</p>
-        </div>
     </section>
-</>
 
+    <!-- Footer -->
+    <footer id="footer" class="section">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4 data-lang="footer_us"> Contact Us</h4>
+                <p data-lang="footer_text"> Email: info@tchadmaculture.com</p>
+                <p data-lang="footer_text1"> Phone: +235 64 74 76 26</p>
+                <p data-lang="footer_text2"> Address N'Djamena, Chad</p>
+            </div>
+            <div class="social-media">
+                <h4 data-lang="footer_us1"> Follow Us</h4>
+                <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+            </div>
+        </div>
+</footer>
+<!-- JavaScript -->
+<script>
+    // Mobile Menu Toggle
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Dark Mode Toggle
+    document.getElementById('dark-mode-toggle').addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+</script>
+<script>
+    const translations = {
+      en: {
+        menu_about: "About",
+        menu_history: "History & Heritage",
+        menu_art: "Art & Literature",
+        menu_music: "Music & Performing Arts",
+        menu_gallery: "Gallery",
+        menu_contact: "Contact",
+        hero_title: "Celebrate and Preserve Chadian Culture",
+        hero_text: "Explore Chad’s rich cultural heritage, engage with local traditions, and contribute to preserving our history.",
+        hero_button: "Join Us",
+        section_about: "About Chad",
+        about_text: "Chad is a nation of diverse cultures, rich traditions, and deep-rooted heritage...",
+        section_vision: "Our Vision & Cultural Mission",
+        vision_text: "Our vision is to establish Chad as a globally recognized cultural hub...",
+      },
+      fr: {
+        menu_about: "À propos",
+        menu_history: "Histoire & Patrimoine",
+        menu_art: "Art & Littérature",
+        menu_music: "Musique & Arts de la scène",
+        menu_gallery: "Galerie",
+        menu_contact: "Contact",
+        hero_title: "Célébrez et préservez la culture tchadienne",
+        hero_text: "Explorez le riche patrimoine culturel du Tchad, engagez-vous avec les traditions locales et contribuez à préserver notre histoire.",
+        hero_button: "Rejoignez-nous",
+        section_about: "À propos du Tchad",
+        about_text: "Le Tchad est une nation de cultures diverses, de traditions riches et d’un patrimoine profondément enraciné...",
+        section_vision: "Notre vision et mission culturelle",
+        vision_text: "Notre vision est d'établir le Tchad comme un centre culturel mondialement reconnu...",
+      },
+      ar: {
+        menu_about: "حول",
+        menu_history: "التاريخ والتراث",
+        menu_art: "الفن والأدب",
+        menu_music: "الموسيقى وفنون الأداء",
+        menu_gallery: "معرض الصور",
+        menu_contact: "اتصال",
+        hero_title: "الاحتفال بالثقافة التشادية والحفاظ عليها",
+        hero_text: "استكشف التراث الثقافي الغني لتشاد، وشارك في التقاليد المحلية، وساهم في الحفاظ على تاريخنا.",
+        hero_button: "انضم إلينا",
+        section_about: "عن تشاد",
+        about_text: "تشاد هي أمة ذات ثقافات متنوعة وتقاليد غنية وتراث عميق الجذور...",
+        section_vision: "رؤيتنا والمهمة الثقافية",
+        vision_text: "رؤيتنا هي أن نجعل تشاد مركزًا ثقافيًا معترفًا به عالميًا...",
+      }
+    };
+  
+    const elements = document.querySelectorAll('[data-lang]');
+    const languageSelect = document.getElementById('language-select');
+  
+    languageSelect.addEventListener('change', function () {
+      const selectedLang = this.value;
+      elements.forEach(el => {
+        const key = el.getAttribute('data-lang');
+        if (translations[selectedLang][key]) {
+          el.textContent = translations[selectedLang][key];
+        }
+      });
+    });
+  </script>  
 </body>
-</html>
+</h>
+
